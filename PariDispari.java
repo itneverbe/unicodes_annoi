@@ -22,7 +22,7 @@ public class PariDispari{
             }
         }else{
             //senza if
-            String r = num%2==0 ? "Pari":"Dispari"; //operatore condizionale
+            String r = num%2==0 ? "Pari":"Dispari"; //espressione condizionale
             System.out.println(num+" è "+r);
         }
 	}

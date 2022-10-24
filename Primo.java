@@ -10,7 +10,7 @@ public class Primo{
         int i = 2;
 
         if((x!=0)||(x!=1)){
-            while(i<x){
+            while(i<x-1){
                 if(x%i==0){
                     System.out.println("\nIl numero non è primo");
                     System.exit(i);
