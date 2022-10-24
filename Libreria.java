@@ -61,19 +61,14 @@ public class Libreria{
 
     //Riscrivere i metodi ricorsivi fattoriale e fibonacci usando espressioni (e non comandi) condizionali
     public static int fibonacci(int k) {
-        k = k==0 ? 0 : 1;
-        System.out.println(k);
-        k = k==1 ? 1 : 0;
-        System.out.println(k);
-
-        k = (k!=0 && k!=1) ? fibonacci(k - 1) + fibonacci(k - 2);
-
-        if (k == 0) 
+        return k==0 ? 0 : k==1 ? 1 : fibonacci(k - 1) + fibonacci(k - 2);
+       
+        /*if (k == 0) 
             return 0;
         else if (k == 1) 
             return 1;
         else 
-            return fibonacci(k - 1) + fibonacci(k - 2);
+            return fibonacci(k - 1) + fibonacci(k - 2);*/
     }
 
     public static void main(String [] args){
