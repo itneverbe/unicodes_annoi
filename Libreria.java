@@ -59,6 +59,39 @@ public class Libreria{
         }
     }
 
+    public static boolean esserePari(int n) {
+        
+        return n<0 ? false : n == 0 ? true : n == 1 ? false : (n-2)%2 == 0 ? true : false;
+
+    }
+
+    //verificare se un numero è primo
+    public static boolean primoIterativo(int x, int i){
+
+        boolean bool=true;
+
+        if(x==0 || x==1) return true;
+
+        if(x%i == 0) return false;
+
+        if(i>2) bool=primoIterativo(x, i-1);
+
+        if(bool == false) return false;
+
+        return true;
+
+    }    
+
+    public static int fattoriale(int n) {
+        
+        return n==0 ? 1 : n * fattoriale(n-1);
+
+        /*if (n = 0) return 1;
+        else return n * fattoriale(n - 1);*/
+    }
+
+
+
     //Riscrivere i metodi ricorsivi fattoriale e fibonacci usando espressioni (e non comandi) condizionali
     public static int fibonacci(int k) {
         return k==0 ? 0 : k==1 ? 1 : fibonacci(k - 1) + fibonacci(k - 2);
@@ -72,8 +105,8 @@ public class Libreria{
     }
 
     public static void main(String [] args){
-        int k = 10;
-        int ris = fibonacci(k);
+        int k = 11;
+        boolean ris = primoIterativo(k, k-1);
         System.out.println(ris);
     }
 
