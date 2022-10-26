@@ -3,6 +3,34 @@ import java.util.Scanner;
 import java.io.*;
 
 public class Libreria{
+
+    public static int mcm(int x, int y){
+        int max = x>y ? x : y;
+
+        if(x<0 || y<0) return 0;
+        while(max%y != 0 || max%x != 0){
+
+            if(x>y)
+            max += x;
+            else max += y;
+
+        }
+
+        return max;
+
+    }
+
+    public static int MCD(int a, int b){
+
+        while(b>0){
+            int r=a%b;
+            a = b;
+            b = r;
+        }
+
+    }
+
+
     //metodi
     public static int round(double x){
         /*Definire un metodo round con un argomento di tipo double e tipo di ritorno
@@ -91,6 +119,14 @@ public class Libreria{
     }
 
 
+    public static int fattoriale2(int n){
+
+
+        if(n==0) return 1;
+        else return n * fattoriale(n-1);
+
+    }
+
 
     //Riscrivere i metodi ricorsivi fattoriale e fibonacci usando espressioni (e non comandi) condizionali
     public static int fibonacci(int k) {
@@ -105,8 +141,9 @@ public class Libreria{
     }
 
     public static void main(String [] args){
-        int k = 11;
-        boolean ris = primoIterativo(k, k-1);
+        int k = 35;
+        int y = 79;
+        int ris = mcm(k, y);
         System.out.println(ris);
     }
 
