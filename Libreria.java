@@ -28,6 +28,8 @@ public class Libreria{
             b = r;
         }
 
+        return b;
+
     }
 
 
@@ -141,9 +143,8 @@ public class Libreria{
     }
 
     public static void main(String [] args){
-        int k = 35;
-        int y = 79;
-        int ris = mcm(k, y);
+        int k = 7;
+        int ris = fibonacci(k);
         System.out.println(ris);
     }
 
