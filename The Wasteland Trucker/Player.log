@@ -1,0 +1,952 @@
+Mono path[0] = 'D:/SteamLibrary/steamapps/common/The Wasteland Trucker/The Wasteland Trucker_Data/Managed'
+Mono config path = 'D:/SteamLibrary/steamapps/common/The Wasteland Trucker/MonoBleedingEdge/etc'
+Loading player data from D:/SteamLibrary/steamapps/common/The Wasteland Trucker/The Wasteland Trucker_Data/data.unity3d
+Initialize engine version: 2019.1.5f1 (0ca0f5646614)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   31.0.15.1694
+Begin MonoManager ReloadAssembly
+- Completed reload, in  3.574 seconds
+WARNING: Shader Unsupported: 'Hidden/Nature/Terrain/Utilities' - All passes removed
+ERROR: Shader Shader is not supported on this GPU (none of subshaders/fallbacks are suitable)WARNING: Shader Unsupported: 'Hidden/Nature/Terrain/Utilities' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/PostProcessing/Uber' - Pass '' has no vertex shader
+Shader 'Enviro/Lite/SkyboxSimple': fallback shader 'None' not found
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 68.896200 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: eecc -> priority: 1 
+LoadLevelAsync: Game
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+WARNING: Shader Unsupported: 'Hidden/PostProcessing/FinalPass' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/PostProcessing/FinalPass' - Pass '' has no vertex shader
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 21.243200 ms
+Could not find FSM: SteeringWheelFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: SteeringWheelFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to RL Rus310 1 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to Towbar because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to Towbar because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to Pots_wheel_right because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to 1.2L Ludu 5012 I4 59HP 87NM Gasoline Engine because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to door_left_Rus310 1 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to 5.8L Jerkin 4536 I6 120HP Diesel v3 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to 5.8L Jerkin 4536 I6 120HP Diesel v3 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to wheel_ludu_v1_L because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to RL Rus310 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: WheelChildFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: WheelChildFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to door_poloska_left_3 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to drivers_seat_Rus310_1 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to turbo_littlebee because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to 594cc I2 23hp Gasoline v3 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to 594cc I2 23hp Gasoline v3 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to FR Rus310 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to FR Rus310 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: WheelChildFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: WheelChildFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to FR Rus310 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to 2.5L MZU 154 I4 75HP 166NM Gasoline because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to engine_cover_poloska_2 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to poloska_front_seat_2 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to turbo_warwhistle because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to hungaton_car_radio (1) because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to hungaton_car_radio because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to hungaton_car_radio (1) because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to hood_poloska_1 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to hood_poloska_1 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: WheelChildFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: WheelChildFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to RR Rus310 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to 1.5L Ludu 5015 I4 74HP 106NM Gasoline Engine because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to door_right_Rus310 2 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to door_right_Rus310 2 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to Pots_wheel_left because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zua_wheel_right because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to door_right_Rus310 3 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to FL Rus310 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: WheelChildFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: WheelChildFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to FL Rus310 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to door_poloska_left_4 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to wheel_menshen_v1_R because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to wheel_ludu_v1_R because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to jerkin_5436_radiator_v3 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to Hood_Rus_310 1 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to Towbar because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to Hood_Rus_310 2 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to door_left_Rus310 3 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to door_left_Rus310 3 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to zua_hood because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to wheel_menshen_v1_L because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to door_right_Rus310 1 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to door_right_Rus310 1 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to RR Rus310 1 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zua_wheel_left because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to 2.5L MZU 154 I4 75HP 166NM Gasoline because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to drivers_seat_Rus310_2 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+UnityCar: Tires "touring_front" loaded on front axle (Ludu_5012)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+UnityCar: Tires "touring_rear" loaded on rear axle (Ludu_5012)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+UnityCar: Tires "truck_front" loaded on front axle (Zakmat_2035)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+UnityCar: Tires "truck_rear" loaded on rear axle (Zakmat_2035)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+UnityCar: Tires "truck_rear" loaded on other axle1 (Zakmat_2035)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+UnityCar: Tires "touring_front" loaded on front axle (Poloska_621_red)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+UnityCar: Tires "touring_rear" loaded on rear axle (Poloska_621_red)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+UnityCar: Tires "touring_front" loaded on front axle (Zua_649)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+UnityCar: Tires "touring_rear" loaded on rear axle (Zua_649)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+UnityCar: Tires "touring_front" loaded on front axle (Cargo_Trike)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+UnityCar: Tires "touring_rear" loaded on rear axle (Cargo_Trike)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+UnityCar: front right wheel not assigned  (Cargo_Trike)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+UnityCar: Tires "truck_front" loaded on front axle (Rus_310_cupid_v2_blue)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+UnityCar: Tires "truck_rear" loaded on rear axle (Rus_310_cupid_v2_blue)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+UnityCar: Tires "touring_front" loaded on front axle (Poloska_621_blue)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+UnityCar: Tires "touring_rear" loaded on rear axle (Poloska_621_blue)
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to radiator_Rus310_v2 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to ludu_trunk because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to TaRS_552_wheel_R because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to TaRS_552_wheel_R because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to zua_suspension_FL because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to ludu_radiator because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zakmat_hood because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to TaRS_552_wheel_L because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to TaRS_552_wheel_L because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zakmat_wheel_FR because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zakmat_door_L because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zua_bumper_front_1 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to ludu_door_FL because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zakmat_suspension_RL because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to poloska_front_seat_1 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to poloska_backseat_1 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to poloska_backseat_1 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to wheel_poloska_v6_R because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: WheelChildFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: WheelChildFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to drivers_seat_Rus310 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to drivers_seat_Rus310 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to wheel_poloska_v6_L because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: WheelChildFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: WheelChildFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to 6.0L RuS-310 V8 150HP Gasoline_v3 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getFueltankFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to ludu_door_RR because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zakmat_passanger_seat because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to radiator_Rus310_v3 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to radiator_Rus310_v3 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to RR_suspension_Rus310_basic because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to ludu_front_seat because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to ludu_front_seat because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zakmat_suspension_FR because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zua_suspension_FR because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to bumper_poloska_v2 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to poloska suspension_RL because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to engine_cover_poloska_red because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to engine_cover_poloska_red because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to ludu_door_FR because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to door_right_Rus310 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to door_right_Rus310 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: WheelChildFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: WheelChildFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to wheel_poloska_v5_L because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to wheel_poloska_v5_L because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zakmat_wheel_RL because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to passenger_seat_Rus310 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to zakmat_bed because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to poloska suspension_RR because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to zua_door_window_RR because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to door_poloska_right_1 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to door_left_Rus310 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to door_left_Rus310 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to zakmat_driving seat because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zakmat_wheel_RR because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zakmat_suspension_FL because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to hood_poloska_red because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getFueltankFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to zakmat_door_R because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to FL_suspension_Rus310_basic because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to Zakmat 2035 Radiator because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to Hood_Rus_310 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to Hood_Rus_310 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to door_poloska_left_1 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to ludu_door_RL because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to poloska suspension_FL because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to poloska suspension_FL because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to frontbumper_Rus_310 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to frontbumper_Rus_310 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zakmat_wheel_FL because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to poloska suspension_FR because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to poloska suspension_FR because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to wheel_poloska_v5_R because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to wheel_poloska_v5_R because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: WheelChildFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: WheelChildFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to firewall_poloska because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zakmat_suspension_RR because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zua_backseat because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to rearshelf_poloska because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to rearshelf_poloska because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to FR_suspension_Rus310_basic because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to FR_suspension_Rus310_basic because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to 10.8L Zakmat 470.01 V8 210HP 637Nm Diesel because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to RL_suspension_Rus310_basic because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to RL_suspension_Rus310_basic because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to RL_suspension_Rus310_basic because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zakmat_bumper because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+
+Unloading 43 unused Assets to reduce memory usage. Loaded Objects now: 102845.
+Total: 326.370200 ms (FindLiveObjects: 4.805800 ms CreateObjectMapping: 1.705200 ms MarkObjects: 318.874100 ms  DeleteObjects: 0.984700 ms)
+
+Variable data not found in pool: float
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Can't add component 'Rigidbody' to Towbar because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to Towbar because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to Towbar because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zakmat_suspension_RL(Clone)357 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+Can't add component 'Rigidbody' to zakmat_suspension_RR(Clone)358 because such a component is already added to the game object!
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Scripting/GameObjectExport.cpp Line: 97)
+
+stopping FireMobile
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
+Could not find FSM: getParentFSM
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 48)
+
