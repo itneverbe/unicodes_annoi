@@ -2,7 +2,7 @@
 import java.util.Scanner;
 import java.io.*;
 
-public class Libreria{
+public class Libreria2{
 
 
     public static int mcm(int x, int y){
@@ -167,6 +167,48 @@ public class Libreria{
         return app;
     }
 
+    public static boolean le(int [] a, int[] b){
+        if(a.length<=b.length){
+            for(int i=0; i<a.length; i++){
+                for(int j=0; j<b.length; j++){
+                    if(a[i]>b[j]){
+                        return false;
+                    }
+                }
+            }
+        }else{
+            return false;
+        }
+        return true;
+    }
+
+    public static boolean le(int [] a, int[] b){
+        if(a.length<=b.length){
+            for(int i=0; i<a.length; i++){
+                    if(a[i]>b[i]){
+                        return false;
+                    }
+                }
+            }
+        }else{
+            return false;
+        }
+        return true;
+    }
+
+    public static int[][] permutazioni(int n){
+
+        int mat[][] = new int[n][n];
+
+
+    }
+
+    public static int[] inserisci(int k, int [] a, int i){
+
+        for(i)
+
+    }
+
     public static double sommatoriaricorsiva(int n){
 
 
@@ -239,15 +281,14 @@ public class Libreria{
     }
 
     public static void main(String [] args){
-        /*int[] a = new int[10];
-        for(int i=0; i<10; i++) a[i] = i;
+        int[] a = new int[10];
+        for(int i=0; i<10; i++) a[i] = i+10;
         int[] b = new int[10];
         for(int i=0; i<10; i++) b[i] = i;
-        int[] app = concatenazione(a, b);
-        for(int i=0; i<app.length; i++) System.out.println(app[i]);*/
+        boolean app = le(a, b);
+        System.out.println(app);
 
-        double somma = sommatoriaiterativa(5);
-        System.out.println(somma);
+        
 
     }
 
