@@ -182,7 +182,7 @@ public class Libreria2{
         return true;
     }
 
-    public static boolean le(int [] a, int[] b){
+    public static boolean le2(int [] a, int[] b){
         if(a.length<=b.length){
             for(int i=0; i<a.length; i++){
                     if(a[i]>b[i]){
@@ -190,24 +190,52 @@ public class Libreria2{
                     }
                 }
             }
-        }else{
+        else{
             return false;
         }
         return true;
     }
 
+
+    /*
+    Definire un metodo int[][] permutazioni(int n) che calcola
+    tutte le permutazioni dei numeri interi da 1 a n. Suggerimento: definire un
+    metodo ausiliario int[] inserisci(int k, int[] a, int i) che crea
+    un array uguale ad a ad eccezione del fatto che l’elemento k è stato inserito
+    in posizione i.
+
+    */
     public static int[][] permutazioni(int n){
 
         int mat[][] = new int[n][n];
+        int k=0, f=0;
+        
+        while(k<n*n){
+            for(int i=0; i<n; i++){
+                for(int j=0; j<n; j++){
+                    mat[i][j]=f;
+                    f++;
+                }
+            }
+            stampa_matrice(mat);
 
+        }
+        return mat;
 
     }
-
-    public static int[] inserisci(int k, int [] a, int i){
-
-        for(i)
-
+    public static void stampa_matrice(int n[][]){
+        int i,j;
+        for(i=0; i<n.length; i++){
+            for(j=0; j<n[i].length; j++){
+                System.out.println(n[i][j]);
+            }
+        }
     }
+    /*public static int[] inserisci(int k, int [] a, int i){
+
+
+
+    }*/
 
     public static double sommatoriaricorsiva(int n){
 
@@ -232,6 +260,44 @@ public class Libreria2{
         return r;
 
     }    
+
+    //crivello di Eratostene
+    public static void crivello(int n){
+
+        boolean [] primi = new boolean[n];
+        int j, i, somma;
+        for(i=0; i<n; i++) primi[i]=true;
+
+        for(i=2; i<n; i++){
+            j=i;
+            somma=j;
+            while(somma+j<n && primi[i]){
+                somma+=j;
+                primi[somma] = false;
+            }
+        }
+
+        for(i=0; i<n; i++){
+            if(primi[i]) System.out.println(i);
+        }
+
+    }
+
+    public static int[] calcolaPrimi(int n){
+        int cont=0,k=0;
+        for(int i=0; i<n; i++){
+
+            if(primo(i)) cont++;
+
+        }
+        int [] numeriPrimi = new int[cont];
+        for(int i=0; i<n; i++){
+
+            if(primo(i)) numeriPrimi[k++]=i;
+
+        }
+        return numeriPrimi;
+    }
 
     //verificare se un numero è primo
     public static boolean primoIterativo(int x, int i){
@@ -281,12 +347,13 @@ public class Libreria2{
     }
 
     public static void main(String [] args){
+
         int[] a = new int[10];
         for(int i=0; i<10; i++) a[i] = i+10;
         int[] b = new int[10];
         for(int i=0; i<10; i++) b[i] = i;
-        boolean app = le(a, b);
-        System.out.println(app);
+        int numeriPrimi []=calcolaPrimi(100);
+        for(int i=0; i<numeriPrimi.length; i++) System.out.println(numeriPrimi[i]);
 
         
 
