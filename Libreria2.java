@@ -300,6 +300,14 @@ public class Libreria2{
     }
 
     //verificare se un numero è primo
+    /* Parametri:
+       int x: numero da verificare
+       int i: numero da verificare - 1
+
+       return value: false non primo, true primo
+
+
+    */
     public static boolean primoIterativo(int x, int i){
 
         boolean bool=true;
