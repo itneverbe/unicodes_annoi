@@ -142,10 +142,141 @@ public class Libreria{
             return fibonacci(k - 1) + fibonacci(k - 2);*/
     }
 
+    /*Definire il metodo void inverti(int[] a) che inverte l’ordine degli elementi in a. Ripetere l’esercizio, 
+    questa volta definendo un metodo int[] inverti(int[] a) che non modifica a */
+    public static void inverti(int[] a){
+
+        int[] b = new int[a.length];
+ 
+        for (int i = 0; i < a.length; i++) {
+            b[a.length - 1 - i] = a[i];
+        }
+ 
+        for (int i = 0; i < a.length; i++) {
+            a[i] = b[i];
+            System.out.println("a[" + i + "] = " + a[i]);
+        }
+    } 
+    
+    /*Crivello di eratostene  
+        -parto con il numero 2, che so essere un numero primo
+        -setaccio via tutti i numeri divisibili per 2 (restano i numeri dispari)
+        -il piu' piccolo dei numeri rimasti e' il prossimo numero primo: 3
+        -setaccio via anche tutti i numeri divisibili per 3 (restano i numeri dispari e non divisibili per 3)
+        -il piu' piccolo dei numeri rimasti e' il prossimo numero primo: 5
+        -setaccio via anche tutti i numeri divisibili per 5 (restano i numeri dispari e non divisibili per 3 ne' per 5)
+      e cosi' via.
+    */
+    /*public static void crivello(int[] c){
+        
+        int[] app = new int[c.length];
+        int num=0;
+        
+        for(int i=0; i<c.length; i++){
+            num=c[i];
+            for(int j=0; j<app.length; j++){
+                if(c[i]==0){
+                    app[j]=c[i];
+                }else{
+                    if(c[i]%num==1){
+                        System.out.println(1);
+                        app[j]=c[i];
+                        //System.out.println(app[j]);
+                    }
+                    
+                }
+                
+            }
+        }
+    }*/
+
+    //crivello di Eratostene
+    public static void crivello(int n){
+
+        boolean [] c = new boolean[n];
+        int j, i, somma;
+
+        for(i=0; i<n; i++){
+            c[i]=true; //riempimento del vettore
+        } 
+
+        for(i=2; i<n; i++){
+            j=i;
+            somma=j;
+            while(somma+j<n && c[i]){
+                somma+=j;
+                c[somma] = false;
+            }
+        }
+
+        for(i=0; i<n; i++){
+            if(c[i]){
+                System.out.println(i);
+            } 
+        }
+    }
+
+    //quanti giorni mancano alla fine dell'anno a partire da un giorno di un mese, tenere conto dei mesi da 29, 30, 31
+    //SWITCH
+    public static void giorniAFineAnno(int giorno, int mese){
+        int sommaGiorni=0;
+        switch(mese){
+            case 1:{
+                System.out.println("Gennaio");
+                sommaGiorni+=31;
+            } 
+            case 2:{
+                System.out.println("Febbraio");
+                sommaGiorni+=29;
+            } 
+            case 3:{
+                System.out.println("Marzo");
+                sommaGiorni+=30;
+            }
+            case 4:{
+                System.out.println("Aprile");
+                sommaGiorni+=30;
+            }
+            case 5:{
+                System.out.println("Maggio");
+                sommaGiorni+=31;
+            }
+            case 6:{
+                System.out.println("Giugno");
+                sommaGiorni+=30;
+            } 
+            case 7: {
+                System.out.println("Luglio");
+                sommaGiorni+=31;
+            }
+            case 8: {
+                System.out.println("Agosto");
+                sommaGiorni+=31;
+            }
+            case 9: {
+                System.out.println("Settembre");
+                sommaGiorni+=30;
+            }
+            case 10: {
+                System.out.println("Ottobre");
+                sommaGiorni+=31;
+            }
+            case 11: {
+                System.out.println("Novembre");
+                sommaGiorni+=30;
+            }
+            case 12: {
+                System.out.println("Dicembre");
+                sommaGiorni+=31;
+            }
+        }
+        sommaGiorni-=giorno;
+        System.out.println(sommaGiorni);
+    }
+
+
     public static void main(String [] args){
-        int k = 7;
-        int ris = fibonacci(k);
-        System.out.println(ris);
+        giorniAFineAnno(1, 2);
     }
 
 
