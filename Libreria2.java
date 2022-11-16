@@ -205,21 +205,18 @@ public class Libreria2{
     in posizione i.
 
     */
-    public static int[][] permutazioni(int n){
+    public static int[] permutazioni(int n){
 
-        int mat[][] = new int[n][n];
+        int mat[] = new int[n];
         int k=0, f=0;
         
-        while(k<n*n){
-            for(int i=0; i<n; i++){
-                for(int j=0; j<n; j++){
-                    mat[i][j]=f;
-                    f++;
-                }
-            }
-            stampa_matrice(mat);
+        for(int j=0; j<n; j++){
+            mat[j]=j;
+        }    
 
-        }
+        int num = fattoriale(n);
+
+        
         return mat;
 
     }
@@ -354,15 +351,64 @@ public class Libreria2{
             return fibonacci(k - 1) + fibonacci(k - 2);*/
     }
 
+    public static void tartaglia(){
+
+        // Trasformare questo pezzo di codice in un metodo
+        // che stampa il triangolo di Tartaglia di n righe
+        int [][] t;
+        t  = new int[100][];
+        int dim = 10;
+        for (int i = 0; i < dim; i++) t[i] = new int[i+1];
+
+        for (int i = 0; i < dim; i++) { t[i][0] = 1; t[i][i] = 1; }
+
+        // Correggere la riga successiva
+        for (int i = 2; i < dim; i++) {
+            for(int j = 1; j < t[i].length - 1; j++)  
+                t[i][j] = t[i-1][j-1] + t[i-1][j]; 
+        }
+
+        for (int i = 0; i < dim; i++) {
+            for (int j = 0; j < t[i].length; j++) { 
+                System.out.print(t[i][j]); System.out.print(" "); }
+            System.out.println();
+        }
+
+    }
+
+    // Metodo dei giorni a fine anno
+    // 
+    public static int giorni(int giorni, int mesi){
+
+        switch(mese){
+
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7:
+            case 8:
+            case 9:
+            case 10:
+            case 11:
+            case 12:
+            default:
+
+        }
+
+    }
+
     public static void main(String [] args){
 
-        int[] a = new int[10];
+        /*int[] a = new int[10];
         for(int i=0; i<10; i++) a[i] = i+10;
         int[] b = new int[10];
         for(int i=0; i<10; i++) b[i] = i;
         int numeriPrimi []=calcolaPrimi(100);
-        for(int i=0; i<numeriPrimi.length; i++) System.out.println(numeriPrimi[i]);
-
+        for(int i=0; i<numeriPrimi.length; i++) System.out.println(numeriPrimi[i]);*/
+        tartaglia();
         
 
     }
