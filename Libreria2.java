@@ -376,29 +376,6 @@ public class Libreria2{
 
     }
 
-    // Metodo dei giorni a fine anno
-    // 
-    public static int giorni(int giorni, int mesi){
-
-        switch(mese){
-
-            case 1:
-            case 2:
-            case 3:
-            case 4:
-            case 5:
-            case 6:
-            case 7:
-            case 8:
-            case 9:
-            case 10:
-            case 11:
-            case 12:
-            default:
-
-        }
-
-    }
 
     public static void main(String [] args){
 
