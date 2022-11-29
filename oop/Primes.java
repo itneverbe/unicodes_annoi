@@ -6,31 +6,59 @@ saldo più alto mai raggiunto dal conto corrente nel corso della sua esistenza
 public class Primes{
 
     // Attributi
-    public int indice;
+    private int indice;
 
     // Costruttore
     public Primes(){
 
-        this.indice=0;
+        this.indice=2;
 
+    }
+
+    public int get_indice(){
+
+        return this.indice;
+
+    }
+
+    //verificare se un numero è primo
+    public static boolean primo(int x){
+        int i = 2;
+        Boolean bool=true;
+
+        if((x!=0)||(x!=1)){
+            while(i<x-1){
+                if(x%i==0){
+                    return bool=false;
+                }
+                i++;
+            }
+        }
+        return bool=true;
     }
 
     // Metodi
     public int next(){
 
-        return this.saldo;
+
+        Boolean ris=false;
+        while(ris!=true){
+            ris = primo(this.indice);
+            if (ris==true){
+                return this.indice++;
+            }
+            else this.indice++;
+        }
+        return -1; // if something goes wrong... 
 
     }
 
     public static void main(String [] args) {
 
-        ContoCorrente mio = new ContoCorrente();
-        mio.inc_saldo(100);
-        System.out.println(mio.get_saldo());
-        mio.dec_saldo(50);
-        System.out.println(mio.get_saldo());
-        System.out.println(mio.get_saldo_massimo());
-
+        Primes p = new Primes();
+        for (int i = 0; i < 10; i++)
+        System.out.println(p.next());
+        
 
     }
         

@@ -7,7 +7,7 @@ public class Recipiente{
 
     // Attributi
     private boolean stato;
-    public int oggetti;
+    public int oggetti; // >0
 
     // Costruttore
     public Recipiente(){
@@ -43,13 +43,13 @@ public class Recipiente{
 
     public void inserisci(){
 
-        if(this.get_stato()==true) this.oggetti++;
+        if(this.get_stato()) this.oggetti++;
 
     }
 
     public void rimuovi(){
 
-        if(this.get_stato()==true) this.oggetti--;
+        if(this.get_stato() && this.oggetti > 0) this.oggetti--;
 
     }
 
